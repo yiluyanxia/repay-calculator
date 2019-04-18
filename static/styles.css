@@ -1,3 +1,6 @@
 .item:first-child {
   /* justify-content: space-between; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
