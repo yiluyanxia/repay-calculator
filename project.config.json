@@ -9,7 +9,7 @@
 	},
 	"miniprogramRoot": "dist/wx/",
 	"compileType": "miniprogram",
-	"appid": "wx678440f959c8df23",
+	"appid": "wx8ce624697d0e3808",
 	"projectname": "repay-calculator",
 	"condition": {
 		"search": {

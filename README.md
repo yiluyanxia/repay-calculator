@@ -1,37 +1,10 @@
-# repay-calculator
+# 计还器 repay-calculator
 
-> A Mpvue project
+> 计还器，一个使用mpvue制作的小程序，用于计算还款的小工具。目前支持 等额本息 和 等额本金 两种还款方式。
 
-## Build Setup
+# 预览
+![表单](./static/docs/1.jpg)
+![计算结果](./static/docs/2.jpg)
 
-``` bash
-# 初始化项目
-vue init mpvue/mpvue-quickstart myproject
-cd myproject
-
-# 安装依赖
-yarn
-
-# 开发时构建
-npm dev
-
-# 打包构建
-npm build
-
-# 指定平台的开发时构建(微信、百度、头条、支付宝)
-npm dev:wx
-npm dev:swan
-npm dev:tt
-npm dev:my
-
-# 指定平台的打包构建
-npm build:wx
-npm build:swan
-npm build:tt
-npm build:my
-
-# 生成 bundle 分析报告
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 扫码体验
+![微信小程序扫码体验](./static/docs/wxmp.jpg)
