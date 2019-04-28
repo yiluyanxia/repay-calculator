@@ -10,13 +10,13 @@
     <div class="btnbox">
       <button class="btn" @click="goDetail(0)">等额本息</button>
       <button class="btn" @click="goDetail(1)">等额本金</button>
-    </div>  
-    
+    </div>     
   </div>
 </template>
 
 <script>
 import formItem from '@/components/formItem'
+
 export default {
   data () {
     return {
@@ -24,7 +24,8 @@ export default {
         loanNum: '',
         loanTerm: '',
         loanRate: ''
-      }
+      },
+      logs: []
     }
   },
 
